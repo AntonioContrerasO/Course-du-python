@@ -1,0 +1,121 @@
+body{
+  margin:0px;
+  text-align: center;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 150%;
+}
+h1{
+  color: #334756;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-family: 'Satisfy', cursive;
+  font-size: 5.625rem; /* 1em = 16px y 100% = 1em */
+  line-height: 4;
+}
+h2{
+  color: #000000;
+  margin: 0;
+  font-family: 'Dongle', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  color: #082032;
+  font-family: 'Dongle', sans-serif;
+  margin-bottom: 40px;
+}
+
+a{
+  color: #F0A500;
+}
+
+.Top_container{
+  padding:100px 0 0;
+  background-color: #F0A500;
+  position absolute;
+}
+
+.pro{
+  text-decoration: underline;
+}
+.bottom-cloud{
+  position: absolute;
+  top:400px;
+}
+.top-cloud{
+  position:relative;
+  left:200px;
+  top:120px;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px;
+}
+
+#Me{
+  padding: 10px 0 0;
+  width: 150px;
+}
+.skills{
+  display:inline;
+   width: 150px;
+}
+
+.computer{
+  float:left;
+  width: 240px;
+  margin-right:50px;
+}
+.monde{
+  float:right;
+  width: 210px;
+  margin-left:50px;
+}
+.r{
+  text-align: justify;
+}
+
+.bottom-container{
+  background-color: #082032;
+  filter: opacity(0.3);
+  margin-top: 20px;
+}
+
+.bottom-container:hover{
+  background-color: #082032;
+  transition:all 1s ease-in-out;
+  filter: opacity(1);
+}
+.bottom-text{
+  margin-bottom: 0px;
+  color: #F0A500;
+}
+
+.btn {
+  background: #eba103;
+  background-image: -webkit-linear-gradient(top, #eba103, #ad7807);
+  background-image: -moz-linear-gradient(top, #eba103, #ad7807);
+  background-image: -ms-linear-gradient(top, #eba103, #ad7807);
+  background-image: -o-linear-gradient(top, #eba103, #ad7807);
+  background-image: linear-gradient(to bottom, #eba103, #ad7807);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #eba611;
+  background-image: -webkit-linear-gradient(top, #eba611, #d6a956);
+  background-image: -moz-linear-gradient(top, #eba611, #d6a956);
+  background-image: -ms-linear-gradient(top, #eba611, #d6a956);
+  background-image: -o-linear-gradient(top, #eba611, #d6a956);
+  background-image: linear-gradient(to bottom, #eba611, #d6a956);
+  text-decoration: none;
+}
+
